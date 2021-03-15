@@ -18,6 +18,10 @@
 
 ## :rocket: Sobre o desafio
 
+<p align="center">
+  <img src=".github/todo.png" alt="todo">
+</p>
+
 Nesse desafio, foi criada uma aplicação para treinar o que foi aprendido até agora no ReactJS, onde o seu principal objetivo é uma pequena aplicação de atividades a fazer, para treinar um pouco mais sobre manipulação do estado no React.
 
 - Adicionar uma nova tarefa
@@ -53,6 +57,27 @@ Para esse desafio temos os seguintes testes:
 - **`should be able to remove a task`**: Para que esse teste passe, você deve permitir que ao clicar no botão com ícone de uma lixeira, a task relacionada a esse botão seja removida do estado da aplicação, consequentemente sendo removida da tela.
 
 - **`should be able to check a task`**: Para que esse teste passe, você deve permitir que ao clicar no checkbox ao lado da task, ela seja marcada como concluída ou não concluída de acordo com seu estado atual, alterando seu valor de `isComplete` de `false` para `true` ou ao contrário, de `true` para `false`. 
+
+<br>
+
+## :wrench: Instalação e uso
+
+```bash
+# Abra um terminal e copie este repositório com o comando
+git clone https://github.com/martins-rafael/ignite-conceitos-do-reactjs
+# ou use a opção de download.
+
+# Entre na pasta com 
+cd ignite-conceitos-do-reactjs
+
+# Instale as dependências
+yarn install
+
+# Rode a aplicação
+yarn dev
+```
+
+<br>
 
 ## :memo: Licença
 
