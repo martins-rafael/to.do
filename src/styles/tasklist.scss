@@ -23,7 +23,7 @@ section.task-list {
       gap: 0.25rem;
       align-items: center;
 
-      background: #fff;
+      background: #21262D;
       font-size: 16px;
       
       input {
@@ -34,10 +34,14 @@ section.task-list {
         padding: 12px 24px;
         
         border-radius: 8px;
-        border: 0;
+        border: 2px solid transparent;
         
         &::placeholder {
           color: var(--text-light)
+        }
+
+        &:focus {
+          border: 2px solid var(--purple);
         }
       }
 
@@ -71,7 +75,7 @@ section.task-list {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid #EBEBEB;
+        border-bottom: 1px solid #0D1117;
         padding: 1rem 0;
 
         div {
@@ -107,7 +111,7 @@ section.task-list {
 
               &:checked {
                 & ~ .checkmark {
-                  background-color: var(--blue);
+                  background-color: var(--purple);
                 }
 
                 & ~ .checkmark:after {
@@ -151,7 +155,7 @@ section.task-list {
 
           &:hover {
             svg {
-              filter: brightness(0.5)
+              filter: brightness(1.5)
             }
           }
         }
