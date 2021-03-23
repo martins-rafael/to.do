@@ -64,11 +64,11 @@ Para esse desafio temos os seguintes testes:
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
-git clone https://github.com/martins-rafael/ignite-conceitos-do-reactjs
+git clone https://github.com/martins-rafael/to.do
 # ou use a opção de download.
 
 # Entre na pasta com 
-cd ignite-conceitos-do-reactjs
+cd to.do
 
 # Instale as dependências
 yarn install
